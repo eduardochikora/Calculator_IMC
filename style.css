@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    flex-direction: column;
+    background-color: #16a34a;
+}
+
+#container, section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #262626;
+    color: white;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: -40px;
+    position: relative;
+}
+
+h1::after {
+    position: absolute;
+    content: '';
+    background-color: #16a34a;
+    width: 130px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-radius: 20px;
+}
+
+.medidas {
+    margin-top: 10px;
+}
+
+label {
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+
+input {
+    width: 300px;
+    height: 45px;
+    background-color: #5a5a5a;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+button {
+    width: 304px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #16a34a;
+    color: white;
+    margin-top: 15px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #0f803a;
+}
+
+#res {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    width: 300px;
+}
+
+#res h2 {
+    font-weight: 400;
+    border-top: 1px solid #4c4c4c;
+    width: 320px;
+    padding-top: 1rem;
+    position: relative;
+    margin-top: -1px;
+}
+
+#res h2::after {
+    position: absolute;
+    content: '';
+    background-color: #16a34a;
+    width: 90px;
+    height: 3px;
+    bottom: 0;
+    left: 115px;
+    right: 0;
+    border-radius: 20px;
+}
+
+#result {
+    margin-top: -20px;
+    font-size: 42px;
+}
+
+#descricao {
+    font-size: 23px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    width: 350px;
+}
+
+footer p {
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora - IMC</title>
+</head>
+
+<body>
+    <section>
+            <div id="container">
+                <h1>Calculadora - IMC</h1>
+                <div class="medidas">
+                    <label>Peso:</label>
+                    <br>
+                    <input type="text" id="peso" placeholder="EX: 60(KG)">
+                </div>
+                <div class="medidas">
+                    <label>Altura:</label>
+                    <br>
+                    <input type="text" id="altura" placeholder="EX: 1.70(M)">
+                </div>
+                <button onclick="calcularIMC()">Calcular</button>
+            </div>
+            <div id="res">
+                <h2>Seu IMC:</h2>
+                <p id="result"></p>
+                <p id="descricao"></p>
+            </div>
+    </section>
+    <footer>
+        <p>&copy; EduardoChikora</p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>
